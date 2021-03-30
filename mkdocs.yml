@@ -1,0 +1,8 @@
+site_name: "Robertdemo2"
+site_description: "Robert Demo 2"
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Robertdemo2-api
+  description: "Robert Demo 2"
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "claims"
+  definition:
+    $text: https://github.com/dstrivelli/robertdemo2/blob/master/openapi.yaml
